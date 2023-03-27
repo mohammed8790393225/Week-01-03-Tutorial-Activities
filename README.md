@@ -67,7 +67,7 @@ Task 7. Learning Reflection
 One topic that I find challenging in the first week of a computer systems and applications course is understanding the concept of computer architecture and how different hardware components interact with each other to perform tasks. However, I also found difficult in browsing the OpenWRT website. 
 To overcome this difficulty, I have revisit the lecture notes and slides, watch related online videos, and seek assistance from the tutor or classmates during tutorials. I also try to visualize the flow of information and data between different components using diagrams or animations to help them understand the concept better. Additionally, I have practiced working with the PowerShell commands to view computer hardware information and get hands-on experience with virtual machines like OpenWRT to apply the theoretical knowledge to practical scenarios.
 
-# Week-02-Tutorial-Activities1
+# Week-02-Tutorial-Activities
 
 Task 1: View your address
  ![1](https://user-images.githubusercontent.com/128876454/227860839-ae4cbcf2-adea-4384-941b-e3929e64cc04.png)
