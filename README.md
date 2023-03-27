@@ -3,12 +3,15 @@ Task 1. View Your Computer Information
 Details of the computer hardware and OS is provided below:
 
 CPU details
+
  ![CPU details](https://user-images.githubusercontent.com/128876454/227858456-bc7e4922-3041-49d1-89fe-3f3130f8ac0b.png)
 
 OS version
+
  ![OS version](https://user-images.githubusercontent.com/128876454/227858494-a3fe1535-90af-40b5-a497-3c0ee1111d30.png)
 
 RAM
+
  ![RAM](https://user-images.githubusercontent.com/128876454/227858622-fe1de2e5-2522-48b1-bbc4-2099e93e04dc.png)
 
 Disk information
@@ -53,6 +56,7 @@ Task 4. Practice Units and Prefixes
 In this task, some calculations related to number systems has been performed. 
 Task 5. Create GitHub Account
 The creation of the Github account is shown below: 
+
  ![51](https://user-images.githubusercontent.com/128876454/227859659-e92ab43b-cd5b-4045-8fc9-4e366584570a.png)
  
  ![52](https://user-images.githubusercontent.com/128876454/227859653-28abd16e-bf95-406c-bdf7-c377add079f2.png)
@@ -60,6 +64,7 @@ The creation of the Github account is shown below:
 
  
 Task 6. Create Microsoft Azure Account
+
  ![61](https://user-images.githubusercontent.com/128876454/227859708-50febddf-cbef-47d8-92a9-de3ad7db09b7.png)
 
  ![62](https://user-images.githubusercontent.com/128876454/227859815-834b6b40-2b9a-4635-828e-22a1452c4f80.png)
@@ -71,20 +76,24 @@ To overcome this difficulty, I have revisit the lecture notes and slides, watch 
 # Week-02-Tutorial-Activities
 
 Task 1: View your address
+
  ![1](https://user-images.githubusercontent.com/128876454/227860839-ae4cbcf2-adea-4384-941b-e3929e64cc04.png)
 
 The above figure shows the IP address of all interfaces of my computer. 
 Task 2: Ping Your local router
 The command has been used to get the IP address of the local router is provided below:
 Get-NetRoute | Where { $_.DestinationPrefix -eq '0.0.0.0/0' -and $_.RouteMetric -eq 0 } | Select NextHop
+
  ![2](https://user-images.githubusercontent.com/128876454/227860997-906bd4fe-4d5e-45a8-9062-f27261ac0001.png)
 
 However, by using ipconfig command, it is possible to get the ip address of local router:
+
 ![21](https://user-images.githubusercontent.com/128876454/227861041-d17c1dfe-68fc-4d7e-a78b-fd3b2e3f546c.png)
 
  
 Here, IP address of the local router is 192.168.1.1.
 Ping test
+
  ![22](https://user-images.githubusercontent.com/128876454/227861073-3519e95d-e334-4dd5-9dff-d67c7da63fd7.png)
 
 Minimum, maximum, and average delay between computer and local router:
@@ -93,6 +102,7 @@ Maximum delay = 149ms
 Average delay = 135ms
 Task 3: Ping your openWRT linux server
 IP address of the openWRT Linux server
+
  ![3](https://user-images.githubusercontent.com/128876454/227861130-d44f8975-6f90-4e46-9063-9b1d5defde61.png)
 
 Ping from host computer
@@ -104,12 +114,15 @@ Wireshark capture
 From the above figure, it has been seen that the ping test between host computer and OpenWRT machine has been captured.
 Task 4: Trace path through internet
 Opening a glass tool to perform traceroute
+
  ![4](https://user-images.githubusercontent.com/128876454/227861467-6470882f-80b2-4620-9abd-13e1364ee246.png)
 
 Identifying path for reaching google.com
+
  ![41](https://user-images.githubusercontent.com/128876454/227861496-6922483d-0d0d-4027-83e8-e7a44a004c6f.png)
 
 Identifying path for reaching international destination
+
  ![42](https://user-images.githubusercontent.com/128876454/227861514-73979bc0-8465-4d1d-872f-49cccbe12aaf.png)
 
 The above figure shows the trace route between host computer and London.ac.uk website. For this tracing, the following key information has been identified: 
@@ -119,6 +132,7 @@ The above figure shows the trace route between host computer and London.ac.uk we
 •	The key information learned from tracing the path includes the physical locations of the routers, the ISPs that own them, and the approximate delay between each hop.
 Factors that may impact or contribute to the delay in the Internet include network congestion, routing inefficiencies, physical distance between the source and destination, and the quality of the network infrastructure. These factors can vary greatly, especially when traversing different networks, leading to varying delays across the Internet.
 Task 5: Draw a network diagram
+
  ![5](https://user-images.githubusercontent.com/128876454/227861569-f229ccc8-78bc-4b4e-b6df-708cdc023166.png)
 
 Figure: Network Diagram
@@ -130,6 +144,7 @@ In this task, different types of addresses of multiple websites has been identif
 The above figure shows that both the IPv4 and IPv6 address of a website has been identified. However, from the yahoo.com, a list of IPv4 and IPv6 addresses has been identified. If any type of address of a website is not identified it can be said that the website works only on IPv4 address.   
 Task 7: Home internet connection
 Type of home network connection is wireless which is shown below:
+
  ![7](https://user-images.githubusercontent.com/128876454/227861698-cabe04cd-1404-4852-aee8-0e1b9344d324.png)
 
  
@@ -142,14 +157,17 @@ Download speed – 36.50 Mbps
 Upload speed – 17.7 Mbps
 However, for this task, a speed test has been performed on different times of a day. In different times of a day, different speed has been identified. 
 Morning speed
+
  ![m](https://user-images.githubusercontent.com/128876454/227861876-247749e2-8e82-463d-8daf-2080da21b207.png)
 
  
 Afternoon Speed
+
  ![a](https://user-images.githubusercontent.com/128876454/227861900-e025dd19-26a9-4ef9-a0da-1b980af14a57.png)
 
  
 Night speed
+
  ![n](https://user-images.githubusercontent.com/128876454/227861922-b5e11fda-5912-445a-989d-34eeb872230d.png)
 
  
