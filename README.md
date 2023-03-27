@@ -12,6 +12,7 @@ RAM
  ![RAM](https://user-images.githubusercontent.com/128876454/227858622-fe1de2e5-2522-48b1-bbc4-2099e93e04dc.png)
 
 Disk information
+
  ![Disk](https://user-images.githubusercontent.com/128876454/227858634-8676c2e1-6c4c-4d0c-9ee0-72dd583896c1.png)
 
 Component Name	Details or Size
